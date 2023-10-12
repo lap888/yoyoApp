@@ -1,0 +1,11 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.topguo.novel">
+
+    <application android:allowBackup="true" android:supportsRtl="true">
+        <activity
+            android:name=".NovelActivity"
+            android:configChanges="keyboard|orientation|screenSize"
+            android:screenOrientation="portrait" />
+
+    </application>
+</manifest>
